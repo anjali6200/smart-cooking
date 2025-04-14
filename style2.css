@@ -1,0 +1,197 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    background: #fff5f0;
+    padding: 60px 20px;
+    border-radius: 20px;
+}
+
+.home-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.explore-btn,
+.tutorials-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.explore-btn {
+    background-color: #ff6b3d;
+    color: #fff;
+}
+
+.tutorials-btn {
+    background-color: #fff;
+    border: 2px solid #ff6b3d;
+    color: #ff6b3d;
+}
+
+.explore-btn:hover {
+    background-color: #e6592e;
+}
+
+.tutorials-btn:hover {
+    background-color: #ffe5db;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+/* ===== FEATURES SECTION ===== */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.feature-card {
+    background-color: #fafafa;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #ff6b3d;
+    margin-bottom: 15px;
+}
+
+/* ===== CATEGORIES SECTION ===== */
+.category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.category-card {
+    background-color: #ffe5db;
+    color: #ff4d1a;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.category-card:hover {
+    background-color: #ffd1c1;
+}
+
+/* ===== POPULAR RECIPES SECTION ===== */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+.recipe-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recipe-card h4 {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.recipe-card:hover {
+    transform: scale(1.03);
+}
+
+/* ===== STATS SECTION ===== */
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: #fff5f0;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 2.5rem;
+    color: #ff6b3d;
+}
+
+.stat-box p {
+    font-size: 1rem;
+    color: #555;
+}
